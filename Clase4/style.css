@@ -1,0 +1,52 @@
+
+/*#first-container{
+    height: 500px;
+    background-color: blue;
+}
+
+#second-container{
+    height: 300px;
+    background-color: red;
+}*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px
+}
+.container{
+    max-width: 850px;
+    width: 100%;
+    height: 620;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    margin: 0 auto;
+    margin-top:50px;
+    padding: 20px 200px;
+}
+
+.container_title{
+    text-align: left;
+}
+
+
+.input_container .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbcbcb;
+}
+
+.input_container .input-error{
+    color: red;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+.button {
+    background-color: yellow;
+    color: black;
+    border-radius: 6px;
+    padding: 10px;
+    border:1px solid #cbcbcb;
+}
